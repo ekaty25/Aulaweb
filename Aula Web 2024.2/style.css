@@ -1,0 +1,13 @@
+.divA {
+    height: 100px;
+    width: 1000px;
+    background-color: aquamarine;
+    border: solid;
+    border-color: aliceblue;
+}
+h1{
+    color:red
+}
+h2{
+    color:blueviolet
+}
