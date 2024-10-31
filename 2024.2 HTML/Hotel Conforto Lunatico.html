@@ -3,96 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Hotel Conforto Lunatico</title>
+    <title>Hotel Conforto Lunático</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo"
-        Logotipo do Hotel Conforto Lunático" width="150" height="110">
+    <header><div class="Hotel Conforto Lunático"width="150" height="110">
 
-            <h1>Bem-vindo ao Hotel Conforto Lunático</h1>
-        </div>
+    </div>
+        <h1>Hotel Conforto Lunático</h1>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
-                <li><a href="#Nossa Historia">Nossa Historia</a></li>
                 <li><a href="#quartos">Quartos</a></li>
-                <li><a href="#serviços">Serviços</a></li>
-                <li><a href="#Reservas">Reservas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#reservas">Reservas</a></li>
                 <li><a href="#contato">Contato</a></li>
-
             </ul>
         </nav>
+    </h1>
     </header>
 
     <section id="home" class="hero">
-        <h2>Seu conforto é nossa prioridade! Venha desfrutar 
-            da melhor hospedagem da sua vida e você não irá se arrepender! 
-            Aguardamos você e sua família.</h2>
-
-    </section>
-
-    <section id="nossa história" class="nossa história">
-        <h2>Nossa História</h2>
-        <p>O Hotel Conforto Lunatico foi construido para proprocionar um ambiente aconchegante, gostoso e transformador, o hotel conta com uma estrutura simples mais também moderna inovadora, podendo assim proprocionar ótimos momentos e realizações aos nossos clientes. Está localizado no coração da cidade, podendo oferecer os melhores serviços e acomodações para nossos hóspedes. Nosso objetivo é proporcionar uma estadia relaxante e agradável, onde você possa sempre lembrar dos melhores momentos.</p>
+        <h2>Bem-vindo ao Hotel Conforto Lunático</h2>
+        <p>Localizado no coração da cidade o seu conforto é nossa prioridade! Venha conhecer e desfrutar dos melhores serviços e hospedagem da sua vida e você não irá se arrepender! 
+        Aguardamos você e sua família.</p>
     </section>
 
     <section id="quartos" class="quartos">
-        <h2>Quartos</h2>
-        <div class="quarto-lista">
-            <div class="quarto">
-                <img src="Fotos Hotel/ponta-dos-ganchos-piscina.jpg" alt="Quarto Luxo"width="250" height="150">
-                >
-                <h3>Quarto Luxo</h3>
-                <p>A partir de R$ 1000/noite</p>
-            </div>
-            <div class="quarto">
-                <img src="Fotos Hotel/visao-panoramica-acqua-suites.jpg" alt="Quarto Executivo"width="250" height="150">
-                <h3>Quarto Executivo</h3>
-                <p>A partir de R$ 700/noite</p>
-            </div>
-            <div class="quarto">
-                <img src="Fotos Hotel/download (1).jpg" alt="Suíte Master"width="250" height="150">
-                <h3>Suíte Master</h3>
-                <p>A partir de R$ 600/noite</p>
-            </div>
+
+    <div class="carrossel">
+        <div class="quarto">
+            <img src="Fotos Hotel/ponta-dos-ganchos-piscina.jpg" alt="Quarto Executivo" width="250" height="150">
+            <h3>Quarto Executivo</h3>
+            <p>Acomodações confortáveis e bem equipadas a partir de R$4.500,00.</p>
         </div>
 
+        <div class="quarto">
+            <img src="Fotos Hotel/quarto.webp" alt="Quarto Luxuoso" width="250" height="150">
+            <h3>Quarto Luxuoso</h3>
+            <p>Acomodações confortáveis e bem equipadas a partir de R$3.500,00.</p>
+        </div>
 
-        <section id="serviços" class="serviços">
-            <h4>Café da manhã</h4>
-            <div class="café da manhã">
-                <div class="café da manhã">
-                    <img src="Fotos Hotel/cafe 1.jpg" alt=" café Luxo"width="250" height="150">
-                    >
-                    <img src="Fotos Hotel/café 4.jpg" alt=" café Luxo"width="250" height="150">
-                    >
-                    <img src="Fotos Hotel/café 6.jpg" alt=" café Luxo"width="250" height="150">
-                    <h5>Desfrute do melhor café da manhã da sua vida.</h5>
+        <div class="quarto">
+            <img src="Fotos Hotel/visao-panoramica-acqua-suites.jpg" alt="Quarto Confortável" width="250" height="150">
+            <h3>Quarto Confortável</h3>
+            <p>Acomodações confortáveis e bem equipadas a partir de R$2.500,00.</p>
+        </div>
+        <div class="quarto">
+            <img src="Fotos Hotel/download (1).jpg" alt="Quarto Confortável" width="250" height="150">
+            <h3>Quarto Belissima</h3>
+            <p>Acomodações confortáveis e bem equipadas a partir de R$2.000,00.</p>
+        </div>
+    </div>
+</section>
 
+    <section id="sobre" class="sobre">
+        <h4>Sobre Nós</h4>
+        <p>O Hotel Conforto Lunático é o lugar perfeito para relaxar e aproveitar momentos inesquecíveis. Estamos localizados em uma área privilegiada, oferecendo uma estrutura moderna e serviços de qualidade para garantir uma estadia confortável e memorável.</p>
     </section>
 
-    <section id="contato" class="contato">
+    <section id="contato">
         <h2>Contato</h2>
-        <form action="#" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Hotel Conforto Lunatico. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Hotel Conforto Lunático. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
