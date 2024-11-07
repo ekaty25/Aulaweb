@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Estadual do Sumidouro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Parque Estadual do Sumidouro</header></h1>
+            <center> <img src="https://60anos.ief.mg.gov.br/wp-content/uploads/2022/01/Parque-Estaudual-do-Sumidouro-Evandro-IEF-60-anos.jpg"height="400" width="800" alt="Lagoa Santa"></center>
+        
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Parque Estadual do Sumidouro</h2>
+            <p> O Parque Estadual do Sumidouro, é um verdadeiro refúgio para os amantes da natureza e das aventuras ao ar livre. 
+                Com uma rica biodiversidade e paisagens deslumbrantes, o parque é ideal para quem busca um contato mais próximo com o meio ambiente. 
+                Com uma área de aproximadamente 2.800 hectares, o parque abriga diversas formações geológicas, incluindo cavernas, grutas e sumidouros, que dão nome à unidade. 
+                Um dos destaques é a Gruta do Maquiné, famosa por suas impressionantes formações de estalactites e estalagmites. 
+                Além disso, o parque é atravessado por diversos rios e córregos, que proporcionam cenários pitorescos. 
+                Os visitantes podem avistar aves, mamíferos e até mesmo espécies endêmicas, além de apreciar a vegetação típica do cerrado e das matas ciliares. 
+                A observação de aves é uma atividade popular, atraindo ornitólogos e entusiastas da natureza. 
+                O parque oferece várias trilhas que permitem a exploração de suas belezas naturais. 
+                As trilhas variam em grau de dificuldade, tornando o parque acessível tanto para iniciantes quanto para aventureiros experientes. 
+                Os visitantes podem caminhar, fazer trilhas de mountain bike e até mesmo praticar rapel em algumas das áreas mais desafiadoras. 
+                O ideal é visitar o parque durante a primavera e o outono, quando o clima é mais ameno e a flora está em plena floração.</p>
+        </section>
+                  
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div> 
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+    </div>
+    <nav>
+        <a href="index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 CircuitoBH. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

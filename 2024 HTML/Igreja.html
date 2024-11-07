@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja São Francisco de Assis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Igreja São Francisco de Assis</h1>
+    </header>
+   
+    <div class="container">
+        <section>
+            <h2>Igreja São Francisco de Assis</h2>
+           <center> <img src="https://encurtador.com.br/PG8ef"height="400" width="800" alt="Igreja São Francisco"></center>
+           <p> A Igreja de São Francisco, localizada em Belo Horizonte, é um dos marcos históricos e arquitetônicos da cidade. Construída entre 1943 e 1950, a igreja é um exemplo
+             notável do estilo moderno, projetada pelo arquiteto Oscar Niemeyer, que se tornou um ícone da arquitetura brasileira.
+
+            Com sua estrutura diferenciada, a igreja destaca-se pelo uso de formas curvas e pela integração harmoniosa com o entorno. O uso de concreto armado, uma das 
+            características marcantes das obras de Niemeyer, confere à Igreja de São Francisco uma aparência única e contemporânea. O interior é igualmente impressionante, 
+            com vitrais coloridos que filtram a luz, criando um ambiente acolhedor e espiritual.
+
+            A igreja não é apenas um espaço de culto, mas também um local de grande significado para a comunidade. Ela abriga eventos culturais, celebrações religiosas e 
+            atividades sociais, reforçando seu papel como um centro de convivência e espiritualidade.
+
+            Além de sua importância religiosa, a Igreja de São Francisco é um atrativo turístico, atraindo visitantes que apreciam tanto a arte quanto a arquitetura. 
+            O entorno é igualmente agradável, com áreas verdes que convidam a momentos de contemplação.
+
+            Em suma, a Igreja de São Francisco é um símbolo da modernidade de Belo Horizonte, combinando beleza estética e funcionalidade, e continua a ser um espaço de 
+            reflexão e conexão para todos que a visitam.</p>
+            
+        </section>
+                
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div> <!-- Elemento para exibir a mensagem -->
+        </section>
+        
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

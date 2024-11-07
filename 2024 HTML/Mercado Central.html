@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Central</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mercado Central</h1>
+        
+    </header>
+   <center> <img src="https://encurtador.com.br/BW4ir" height="400" width="800" alt="Mercado Central"></center>
+   
+    <div class="container">
+        <section>
+            <h2>Mercado Central</h2>
+            <p> O Mercado Central de Belo Horizonte é um dos destinos mais tradicionais e vibrantes da cidade, sendo um verdadeiro ponto de encontro de sabores, aromas e culturas. 
+                Inaugurado em 1929, o mercado é famoso por sua diversidade de produtos, que vão desde alimentos frescos, como frutas, verduras e carnes, até itens típicos da 
+                culinária mineira, como queijos, doces e cachaças.
+
+                Com uma arquitetura charmosa, o espaço abriga mais de 400 lojas, onde comerciantes e produtores locais oferecem uma variedade impressionante de produtos artesanais 
+                e regionais. Os visitantes podem encontrar desde especiarias e temperos até artesanato e souvenirs, tornando o Mercado Central um excelente lugar para quem busca 
+                produtos autênticos de Minas Gerais.
+                
+                Além da rica oferta de produtos, o mercado é conhecido por sua gastronomia. Diversos restaurantes e lanchonetes servem pratos típicos, como o famoso pão de queijo, 
+                o feijão tropeiro e a linguiça artesanal, proporcionando uma verdadeira experiência sensorial aos visitantes. As degustações são uma atração à parte, com a 
+                possibilidade de experimentar delícias a cada esquina.
+                
+                O Mercado Central também é um espaço cultural, onde frequentemente acontecem eventos, apresentações musicais e feiras de artesanato, celebrando a cultura 
+                mineira e promovendo a interação entre os visitantes. A atmosfera é sempre animada, com pessoas de todas as idades e origens, criando um ambiente acolhedor e 
+                convidativo.
+                
+                Em resumo, o Mercado Central de Belo Horizonte é muito mais do que um local de compras; é um verdadeiro símbolo da cultura e da hospitalidade mineira, que 
+                encanta tanto os moradores quanto os turistas. Um passeio por lá é uma imersão nos sabores e na história de Minas Gerais, que não pode faltar em uma visita à cidade.</p>
+        </section>
+        
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </section>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #76bb87; 
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: url('https://imgmd.net/images/c_limit%2Cw_3200/v1/guia/1688013/belo-horizonte-203-c.jpg'); 
+    background-size: cover; 
+    color: white;
+    padding: 60px 0; 
+    text-align: center; 
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #432569; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #2E8B57; 
+}
+
+input[type="submit"] {
+    background: #2E8B57; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #1c5a40; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #004d40; 
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+nav {
+    background-color: #004d40; 
+    padding: 10px 20px; 
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px;
+}
+
+/* Estilo para os links dentro do nav */
+nav a {
+    color: #e0f2f1; 
+    text-decoration: none; 
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px; 
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    border-radius: 5px;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #00796b; 
+    color: #ffffff; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a7ffeb;
+    border-bottom: 2px solid #a7ffeb;
+}

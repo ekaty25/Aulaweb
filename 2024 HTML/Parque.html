@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque das Mangabeiras</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Parque das Mangabeiras</h1>
+    </header>
+
+   
+
+    <div class="container">
+        <section>
+            <h2>Parque das Mangabeiras</h2>
+           <center> <img src="https://encurtador.com.br/pT6pz"height="400" width="800" alt="Parque das Mangabeiras"></center>
+           <p> O Parque das Magambeiras, em Belo Horizonte, é um verdadeiro refúgio verde, ideal para quem busca tranquilidade e contato com a natureza. Localizado no bairro 
+            São Pedro, o parque se destaca por sua vegetação rica e diversificada, com destaque para as imponentes magambeiras, árvores típicas da região que dão nome ao local.
+                
+            Com uma área de aproximadamente 20 mil metros quadrados, o parque oferece trilhas para caminhadas, espaços para piqueniques e áreas de lazer para crianças. 
+            Suas trilhas são bem sinalizadas, permitindo que os visitantes explorem a fauna e a flora locais, com a possibilidade de avistar diversas espécies de aves e 
+            pequenos animais.
+            
+            Além das belezas naturais, o Parque das Magambeiras promove atividades culturais e educativas, como oficinas e eventos voltados para a preservação ambiental. 
+            O espaço é um importante ponto de encontro para a comunidade, que se reúne para desfrutar de momentos de lazer e descontração.
+            Com sua atmosfera tranquila e acolhedora, o Parque das Magambeiras é um lugar perfeito para relaxar, praticar esportes ou simplesmente apreciar a beleza do 
+            meio ambiente, proporcionando uma pausa revigorante na agitação da cidade. É, sem dúvida, um dos tesouros verdes de Belo Horizonte. </p>
+            
+        </section>
+                
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </section>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagoa da Pampulha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lagoa da Pampulha</h1>
+       
+    </header><center>
+    <img src="https://cdn.blablacar.com/wp-content/uploads/br/2024/04/05095340/bh-pampulha-2.webp" height="400" width="800" alt="Lagoa da Pampulha"> </center>
+
+    
+
+    <div class="container">
+        <section>
+            <h2>Lagoa da Pampulha</h2>
+            <p>Em 1936, o prefeito de Belo Horizonte, Otacílio Negrão de Lima, iniciou o represamento do ribeirão Pampulha, objetivando a construção de uma lagoa, cuja finalidade 
+                seria amortecer enchentes e contribuir para o abastecimento da capital. A obra foi completada em 1943 na gestão de seu sucessor, Juscelino Kubitschek. 
+                Em seus planos de modernização da cidade, JK aproveitou a lagoa para construir um conjunto arquitetônico mundialmente famoso, desenhado pelo 
+                arquiteto Oscar Niemeyer...</p>
+        </section>
+                
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </section>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

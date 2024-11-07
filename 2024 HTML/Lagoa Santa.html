@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagoa Santa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lagoa Santa</header>/h1>
+            <center> <img src="https://www.quintoandar.com.br/guias/wp-content/uploads/2023/08/o-que-fazer-em-lagoa-santa-2-1.jpg"height="400" width="800" alt="Lagoa Santa"></center>
+
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Lagoa Santa</h2>
+            <p> É uma encantadora cidade localizada a apenas 40 km de Belo Horizonte, conhecida por suas belezas naturais e rica história. Com suas famosas lagoas, especialmente a 
+                Lagoa Central, e formações rochosas impressionantes, o local é perfeito para quem busca contato com a natureza e atividades ao ar livre.
+
+Os visitantes podem explorar trilhas, praticar esportes aquáticos e aproveitar as diversas opções de lazer, como passeios de barco e pesca. A cidade também é famosa por 
+suas grutas, como a Gruta da Lapinha, um importante sítio arqueológico que revela vestígios de ocupações humanas antigas.
+
+Além das belezas naturais, Lagoa Santa oferece uma deliciosa gastronomia local, com pratos típicos da culinária mineira, e um clima acolhedor, ideal para famílias e grupos de amigos.
+
+Venha descobrir as maravilhas de Lagoa Santa e aproveite uma experiência única em um dos destinos mais encantadores de Minas Gerais!</p>
+        </section>
+                  
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+    </div>    
+    <nav>
+        <a href="index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 CircuitoBH. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

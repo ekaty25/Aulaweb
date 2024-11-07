@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mineirão e Mineirinho</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mineirão e Mineirinho</h1>
+        
+    </header>
+<center>
+    <img src="https://mineirao-bucket.mineirao.com.br/file/mineirao/news/17121794026gxQeG.webp" height="400" width="800" alt="Mineirão e Mineirinho"></center>
+
+    <div class="container">
+        <section>
+            <h2>Mineirão e Mineirinho</h2>
+            <p>O projeto de construção do Mineirão antecede a sua inauguração em mais de 25 anos. Na década de 1940, começaram movimentos tímidos, envolvendo dirigentes, 
+                empresários, atletas e jornalistas s três principais times da capital mineira possuíam seus estádios, mas estes eram acanhados, desconfortáveis e já não suportavam 
+                a demanda dos torcedores. O Estádio Otacílio Negrão de Lima (Estádio da Alameda, na Avenida Francisco Sales), do América, o Estádio Antônio Carlos 
+                (localizado na Avenida Olegário Maciel), do Atlético, e o Estádio Juscelino Kubitschek (localizado na Avenida Augusto de Lima), do Cruzeiro não suportavam 
+                mais do que 15 mil espectadores. O Atlético, time das camadas mais populares da cidade, planejava construir um estádio para 30 mil pessoas. Após o título de 
+                "Campeão dos Campeões do Brasil", em 1937, o projeto quase saiu do papel. Mas então descobriu-se uma enorme dívida do clube, obrigando os diretores a lotear e 
+                vender os imóveis que o clube possuía na região onde seria construído o estádio, na Avenida Antônio Carlos, próximo ao Aeroporto</p>
+        </section>
+                
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </section>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

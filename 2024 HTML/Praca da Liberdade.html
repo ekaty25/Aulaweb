@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praça da Liberdade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="agendamento.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1>Praça da Liberdade</h1>
+    </header>
+
+    
+
+    <div class="container">
+        <section>
+            <h2>Praça da Liberdade</h2>
+           <center> <img src="https://encurtador.com.br/0WyLZ"height="400" width="800" alt="Praça da Liberdade"></center>
+           <p> A Praça da Liberdade, localizada em Belo Horizonte, é um dos espaços mais emblemáticos da cidade, reconhecida por sua beleza arquitetônica e importância histórica. Inaugurada em 1897, a praça é um verdadeiro cartão-postal, cercada por imponentes edifícios em estilo neoclássico e art déco, que abrigam importantes instituições culturais, como o Museu das Minas e do Metal e o Centro Cultural Banco do Brasil.
+
+            O local é um convite ao passeio, com seus jardins bem cuidados, fontes e esculturas que trazem um charme especial. Durante o dia, moradores e turistas aproveitam para caminhar, fazer piqueniques ou simplesmente relaxar à sombra das árvores. À noite, a iluminação transforma a praça em um cenário mágico, ideal para contemplação.
+            Além de sua beleza, a Praça da Liberdade é um centro cultural vibrante, recebendo eventos, feiras e exposições ao longo do ano. O famoso "Circuito Liberdade", que conecta vários museus e espaços culturais na região, faz dela um ponto central para quem deseja explorar a rica história e a cultura de Minas Gerais.
+
+            Em resumo, a Praça da Liberdade é muito mais do que um espaço público; é um símbolo de Belo Horizonte, refletindo a identidade e a diversidade da cidade. Um lugar perfeito para quem busca inspiração, lazer e um pouco de história.</p>
+            
+        </section>
+                
+        <section id="agendamento">
+            <h2>Agendamento de Passeios</h2>
+            <form id="agendamentoForm" action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="data">Data do Passeio:</label>
+                <input type="date" id="data" name="data" required>
+        
+                <button type="submit">Agendar Passeio</button>
+            </form>
+            <div id="mensagem" style="margin-top: 20px;"></div>
+        </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+<br>
+<br>
+    </section>
+    </div>
+    <nav>
+        <a href="Index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
